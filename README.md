@@ -1,2 +1,2 @@
-Alacritty -> /home/${USER}/.config/
-Nvim -> /home/${USER}/.config/
+## Alacritty -> /home/${USER}/.config/
+## Nvim -> /home/${USER}/.config/
