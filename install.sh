@@ -29,20 +29,3 @@ cp -r nvim $HOME_CONFIG_PATH.config
 
 #Fonts
 cp -r fonts $HOME_CONFIG_PATH.local/share
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
