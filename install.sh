@@ -34,3 +34,5 @@ cp -r fonts $HOME_CONFIG_PATH.local/share
 cp -r config_backups $HOME_CONFIG_PATH
 cd $HOME_CONFIG_PATH
 mv config_backups your_config_backups
+
+echo "Installation complete, a folder with your old files can be found in your home directory."
