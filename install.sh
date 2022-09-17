@@ -31,6 +31,6 @@ cp -r nvim $HOME_CONFIG_PATH.config
 cp -r fonts $HOME_CONFIG_PATH.local/share
 
 
-cp config_backups $HOME_CONFIG_PATH
+cp -r config_backups $HOME_CONFIG_PATH
 cd $HOME_CONFIG_PATH
 mv config_backups your_config_backups
