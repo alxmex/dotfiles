@@ -7,6 +7,9 @@
 # Description: Installation of my config files.
 
 ########
+apt install lua5.3
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 HOME_CONFIG_PATH="/home/$USER/"
 
