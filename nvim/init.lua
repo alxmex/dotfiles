@@ -3,6 +3,9 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.api.nvim_command("set noswapfile")
 vim.api.nvim_command("set number")
+vim.api.nvim_command("set scrolloff=999")
+vim.api.nvim_set_keymap("i", "<S-Tab>", "v:lua.tab_complete()", {expr = true})
+vim.api.nvim_set_keymap("s", "<S-Tab>", "v:lua.tab_complete()", {expr = true})
 vim.g.mapleader = " "
 
 
