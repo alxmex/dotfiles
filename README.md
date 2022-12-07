@@ -3,7 +3,7 @@ This is personal config settings aswell as the install.sh script. It's not guara
 Dont forget to run :PackerSync 
 
 
-
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
 
