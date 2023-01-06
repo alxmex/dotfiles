@@ -4,7 +4,7 @@ CONFIG_PATHS=(
               '/home/am/.tmux.conf'
               '/home/am/.config/alacritty'
               '/home/am/.config/i3'
-              '/home/am/.config/i3-rust-bar-config.toml'
+              '/home/am/.config/polybar'
               '/home/am/.config/nvim'
               '/home/am/.local/share/fonts'
               '/home/am/.bashrc'
@@ -19,7 +19,7 @@ then
     echo "Bundeling my configurations files."
 
     for dir in ${CONFIG_PATHS[@]}; do
-        cp -r $dir /home/am/scripts/bundled_configs
+        cp -r $dir /home/am/dotfiles/bundled_configs
         echo Bundling: $dir
     done
 
