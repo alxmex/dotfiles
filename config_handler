@@ -1,5 +1,11 @@
 #!/bin/bash
 
+: '
+
+Update config paths with configs to bundle.
+
+'
+
 CONFIG_PATHS=(
               '/home/am/.tmux.conf'
               '/home/am/.config/alacritty'
@@ -13,9 +19,9 @@ CONFIG_PATHS=(
               
               )
 
-if [ $1 == "bundle" ];
+if [ "$1" == "bundle" ];
 then
-    mkdir bundled_configs
+    rm -rf bundled_configs && mkdir bundled_configs
     echo "Bundeling my configurations files."
 
     for dir in ${CONFIG_PATHS[@]}; do
@@ -23,9 +29,6 @@ then
         echo Bundling: $dir
     done
 
-elif [ $1 == "install" ];
-then
-    echo "Install"
 else
     echo "Bad argument."
 fi

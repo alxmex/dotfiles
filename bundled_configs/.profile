@@ -8,6 +8,6 @@ GREEN="\[\e[1;32m\]"
 
 
 
-source ~/scripts/show_git_branch.sh
+source ~/dotfiles/show_git_branch.sh
 export TERMINAL=alacritty
 export PS1="${GREEN}|${COOLCOLOR}\$(parse_git_branch) ${NORMAL}"
