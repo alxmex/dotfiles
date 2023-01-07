@@ -2,7 +2,7 @@
 
 if [ -z "$1" ] 
 then
-    echo "No monitor to shutdown provided."
+    echo "No monitor to shutdown provided. Run xrandr to see all connected monitors"
     exit 1
 fi
 
