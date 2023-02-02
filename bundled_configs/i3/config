@@ -16,9 +16,9 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh &
 set $mod Mod1
 
 #Hide window title bar
-default_border pixel 0
-default_floating_border pixel 0
-for_window [class="^.*"] border pixel 0
+default_border pixel 2
+default_floating_border pixel 2
+for_window [class="^.*"] border pixel 2
 
 
 
