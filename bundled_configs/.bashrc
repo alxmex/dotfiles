@@ -5,8 +5,9 @@ alias vi='nvim'
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export EDITOR='nvim.appimage'
 export CLICOLOR=1
+export PATH=$PATH:/usr/local/bin
 
-source /home/am/.profile
+source /home/pingen/.profile
 
 echo "VPN STATUS:" $(mullvad status)
 

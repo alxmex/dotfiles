@@ -11,5 +11,9 @@ GREEN="\[\e[1;32m\]"
 
 
 source ~/dotfiles/good_to_have_scripts/show_git_branch.sh
+source ~/dotfiles/startup_scripts/screens.sh
+source ~/dotfiles/startup_scripts/change_mouse_speed.sh
+source ~/dotfiles/startup_scripts/background.sh
+
 export TERMINAL=alacritty
-export PS1="${GREEN}alexandermehks:${COOLCOLOR}\$(parse_git_branch) ${NORMAL}"
+export PS1="${GREEN}pingen${COOLCOLOR}\$(parse_git_branch) ${NORMAL}"
