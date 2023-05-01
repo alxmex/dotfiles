@@ -8,3 +8,5 @@ __kube_ps1()
         echo "(k8s: ${CONTEXT})"
     fi
 }
+
+

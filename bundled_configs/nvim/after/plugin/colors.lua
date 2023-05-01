@@ -7,4 +7,5 @@ function setColor(color)
 end
 
 setColor("base16-twilight")
+--setColor("base16-gruvbox-dark-soft")
 
