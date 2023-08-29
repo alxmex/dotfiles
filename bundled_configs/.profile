@@ -20,3 +20,5 @@ compton -b
 
 export TERMINAL=alacritty
 export PS1="${GREEN}arbitaryal${COOLCOLOR} \$(parse_git_branch) \$(__kube_ps1) ${NORMAL}"
+export PATH=$PATH:/usr/local/go/bin
+
