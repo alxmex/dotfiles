@@ -21,4 +21,5 @@ compton -b
 export TERMINAL=alacritty
 export PS1="${GREEN}arbitaryal${COOLCOLOR} \$(parse_git_branch) \$(__kube_ps1) ${NORMAL}"
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/pingen/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin
 
