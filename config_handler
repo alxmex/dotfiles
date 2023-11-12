@@ -11,7 +11,6 @@ CONFIG_PATHS=(
               "/home/$USER/.config/alacritty"
               "/home/$USER/.config/i3"
               "/home/$USER/.config/polybar"
-              "/home/$USER/.config/helix"
               "/home/$USER/.config/nvim"
               "/home/$USER/.local/share/fonts"
               "/home/$USER/.bashrc"
