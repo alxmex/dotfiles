@@ -12,7 +12,7 @@ CONFIG_PATHS=(
               "/home/$USER/.config/i3"
               "/home/$USER/.config/polybar"
               "/home/$USER/.config/nvim"
-              "/home/$USER/.local/share/fonts"
+              "/home/$USER/.config/fish"
               "/home/$USER/.bashrc"
               "/home/$USER/.bash_profile"
               "/home/$USER/.profile"
@@ -21,11 +21,11 @@ CONFIG_PATHS=(
 
 if [ "$1" == "bundle" ];
 then
-    rm -rf bundled_configs && mkdir bundled_configs
-    echo "Bundeling my configurations files."
+    rm -rf configs && mkdir configs
+    echo "Bundeling configurations files."
 
     for dir in ${CONFIG_PATHS[@]}; do
-        cp -r $dir /home/$USER/dotfiles/bundled_configs
+        cp -r $dir /home/$USER/dotfiles/configs
         echo Bundling: $dir
     done
 
