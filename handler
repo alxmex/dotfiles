@@ -29,8 +29,12 @@ then
         echo Bundling: $dir
     done
 
-else
-    echo "Bad argument."
+fi
+if [ "$1" == "install" ];
+then
+    for dir in ${CONFIG_PATHS[@]}; do
+        echo "todo install $dir"
+    done
 fi
 
 
