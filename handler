@@ -1,10 +1,9 @@
 #!/bin/bash
 
-: '
-
-Update config paths with configs to bundle.
-
-'
+#########################
+#    USE WITH CAUTION   #
+#                       #
+#########################
 
 CONFIG_PATHS=(
               "/home/$USER/.tmux.conf"
