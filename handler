@@ -28,13 +28,21 @@ then
         cp -r $dir /home/$USER/dotfiles/configs
         echo Bundling: $dir
     done
-
 fi
 if [ "$1" == "install" ];
 then
-    for dir in ${CONFIG_PATHS[@]}; do
-        echo "todo install $dir"
+    # These should all go into .config
+    # Choosing to copy instead of moving to not override the files 
+    # in the current directory if needed for manual transactions.
+    for file in "./configs"/* ; do
+        cp -r $file "/home/$USER/.config"
     done
+
+    # These should go into /home/$USER
+    for file in "./configs"/.[^.]* ; do
+        cp -r $file "/home/$USER"
+    done
+
 fi
 
 
