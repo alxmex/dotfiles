@@ -7,7 +7,13 @@ lsp.ensure_installed({
 })
 
 lsp.on_attach(function(client, bufnr)
-  lsp.default_keymaps({buffer = bufnr})
+  --lsp.default_keymaps({buffer = bufnr})
+    local keymap_opts = { buffer = buffer}
+    vim.keymap.set("n", "K", vim.lsp.buf.hover, keymap_opts)
+    vim.keymap.set("n", "gD", vim.lsp.buf.implementation, keymap_opts)
+    vim.keymap.set("n", "1gD", vim.lsp.buf.type_definition, keymap_opts)
+    vim.keymap.set("n", "gd", vim.lsp.buf.definition, keymap_opts)
+    vim.keymap.set("n", "ga", vim.lsp.buf.code_action, keymap_opts)
 end)
 
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
