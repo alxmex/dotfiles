@@ -58,12 +58,4 @@ return require('packer').startup(function(use)
     --        'f3fora/cmp-spell', 'hrsh7th/cmp-emoji'
     --    }
     --}
-    use {
-        'tzachar/cmp-tabnine',
-        run = './install.sh',
-        requires = 'hrsh7th/nvim-cmp'
-    }
-
-
-
 end)
