@@ -1,0 +1,12 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-d": "editor::GoToDefinition"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-e": "pane::ActivatePrevItem",
+    }
+  }
