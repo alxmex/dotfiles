@@ -1,12 +1,12 @@
 {
-    "editor.fontWeight": "bold",
+    "editor.fontWeight": "default",
     "rust-analyzer.hover.memoryLayout.alignment": "hexadecimal",
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "editor.formatOnSave": true
     },
     "rust-analyzer.cargo.buildScripts.overrideCommand": null,
-    "editor.fontSize": 15,
-    "window.zoomLevel": -3,
-    "editor.inlayHints.enabled": "offUnlessPressed"
+    "editor.fontSize": 13,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "window.zoomLevel": -1
 }
