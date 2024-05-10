@@ -9,5 +9,6 @@
     "editor.fontSize": 13,
     "editor.inlayHints.enabled": "offUnlessPressed",
     "diffEditor.hideUnchangedRegions.enabled": true,
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1,
+    "workbench.sideBar.location": "right"
 }
